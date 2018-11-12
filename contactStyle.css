@@ -1,0 +1,261 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(backg.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family:  "Century Gothic";
+}
+
+a img:hover{
+	opacity: 1;
+}
+
+p{
+  font-size: 12px;
+}
+
+.loginbox{
+	width: 350px;
+	height: 670px;
+	background: #4169E1;
+	color: #fff;
+	top: 60%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	border-top: 10px ridge greenyellow;
+	border-top-left-radius: 34px;
+	border-bottom: 10px ridge greenyellow;
+	border-bottom-left-radius: 34px;
+	/*border-top-right-radius: 150px ridge greenyellow;*/
+	padding:70px 30px;
+}
+
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50%-50px);
+}
+
+h1{
+	margin:0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+  text-decoration: line-through;
+  color: #FFD700;
+}
+
+span2{
+  text-decoration: underline;
+  color: #FFD700;
+  font-size: 25px;
+}
+
+span2:hover{
+
+  color: #aaa;
+  content:'email now'
+}
+
+@keyframes changewo {
+  0%{
+    opc
+  }
+
+}
+h2{
+  	text-align: center;
+}
+
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+
+}
+
+input[type="submit"]{
+
+	margin-bottom: 20px;
+  margin-right: 28px;
+}
+
+span{
+  color:red;
+}
+
+
+
+.loginbox input[type="password"]
+{
+	border-color: dodgerblue;
+	box-shadow: 0 0 8px 0 #fff;
+	border-bottom: 2px soild #aaa;
+	border-radius: 14px;
+	background: transparent;
+	margin: 8px 0;
+	outline: none;
+	height:40px;
+	color: #fff;
+	font-size: 16px;
+	transition: 0.3s;
+}
+
+.loginbox input[type="text"]{
+	border-color: dodgerblue;
+	box-shadow: 0 0 8px 0 #fff;
+	border-bottom: 2px soild #aaa;
+	border-radius: 14px;
+	background: transparent;
+	margin: 8px 0;
+	outline: none;
+	height:40px;
+	color: #fff;
+	font-size: 16px;
+	transition: 0.3s;
+}
+
+
+
+.loginbox input[type="text"], input[type="password"]:focus{
+
+	border-color: #FFD700;
+	box-shadow: 0 0 8px 0 #fff
+}
+
+.loginbox input[type="text"], input[type="password"]{
+	padding-left: 40px;
+}
+
+.inputWithIcon{
+		    position:relative;
+		  }
+
+.inputWithIcon i{
+		    position:absolute;
+		    left:0;
+		    top:8px;
+		    padding:29px 8px;
+		    color:#aaa;
+		    transition:.3s;
+		  }
+.inputWithIcon icon{
+				position:absolute;
+				left:0;
+				top:8px;
+				padding:29px 8px;
+				color:#aaa;
+				transition:.3s;
+			}
+.inputWithIcon icon2{
+				position:absolute;
+			  left:0;
+				top:8px;
+				padding:29px 8px;
+				color:#aaa;
+				transition:.3s;
+		}
+
+ .inputWithIcon input[type="text"]:focus + i{
+		    color:#fff;
+		  }
+.inputWithIcon input[type="password"]:focus + icon{
+		 		   color:#fff;
+		 	}
+.inputWithIcon input[type="text"]:focus + icon2{
+					color:#fff;
+	}
+
+
+.loginbox input[type="submit"]
+{
+	border:  none;
+	outline: none;
+	height: 40px;
+	background: #fff;
+	color: #FFD700;
+	font-size: 18px;
+	border-radius: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #FFD700;
+	color: #fff;
+}
+
+.loginbox a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: #000000;
+}
+
+num{
+    color: #ffc107;
+    text-decoration: underline;
+}
+
+.loginbox a:hover
+{
+	color: #ffc107;
+}
+
+
+.checkStyle input[type=checkbox] + label {
+  display: block;
+  margin: 0.2em;
+  cursor: pointer;
+  padding: 0.2em;
+}
+
+.checkStyle input[type=checkbox] {
+  display:none;
+}
+
+.checkStyle input[type=checkbox] + label:before {
+  content: "\2714";
+  border: 0.1em solid #000;
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+	padding-right: 0.2em;
+  padding-left: .1em;
+  padding-bottom: 0.3em;
+  margin-right: 0.2em;
+  vertical-align: bottom;
+  color: transparent;
+  transition: .2s;
+}
+
+.checkStyle input[type=checkbox] + label:active:before {
+  transform: scale(0);
+}
+
+.checkStyle input[type=checkbox]:checked + label:before {
+  background-color: MediumSeaGreen;
+  border-color: MediumSeaGreen;
+  color: #fff;
+}
+
+.checkStyle input[type=checkbox]:disabled + label:before {
+  transform: scale(1);
+  border-color: #aaa;
+}
+
+.checkStyle input[type=checkbox]:checked:disabled + label:before {
+  transform: scale(1);
+  background-color: #bfb;
+  border-color: #bfb;
+}
